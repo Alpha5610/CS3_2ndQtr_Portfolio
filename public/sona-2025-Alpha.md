@@ -22,4 +22,7 @@ make food for themselves. Then we have electricity, which is a problem for most 
 electricity to be able to use gadgets; to check the news, to navigate our surroundings, and of course, to be at ease. Electricity is vital 
 in survival, especially in today's generation. Lastly, we have health. According to the SONA, Filipinos suffering from illness don't get the 
 help quickly. Health in general should be prioritized above all else, and the country's new plan is sure to make that happen. Truly, in my view,
+
  the SONA talks about a lot of positive plans that I hope are going to help the Philippines, one way or another.
+
+One phrase: "For the nation".
