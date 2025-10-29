@@ -30,7 +30,7 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 ### **3. Outline Of Webpages**
 #### ***Home Page***
 - Introduction to the player  
--Images of subject characters to hook the player
+- Images of subject characters to hook the player
 - Four links:  
   - `About the Game` (About the Game page)  
   - `PLAY!` (Actual Game page)
