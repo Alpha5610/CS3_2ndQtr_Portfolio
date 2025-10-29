@@ -17,7 +17,7 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 ---
 
 ### **2. Description**
-> Welcome to ***Subject To Love***, the ultimate, super addicting school dating simulator!  
+> Welcome to ***Subject To Love***, the ultimate school dating simulator!  
 > This match-making game aims to find you the perfect subject that shall be your partner for the rest of the year ;).  
 > With a loving and caring subject by your side, you'll be able to flourish in school and have fun with learning!  
 > So, what are you waiting for?  
