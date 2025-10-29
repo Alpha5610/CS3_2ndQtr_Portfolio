@@ -86,7 +86,7 @@ It will handle interactive elements and dynamic dialogue display, allowing playe
 
 ### **5. Website Wireframe**
 
-*(insert sketches or layout mock-ups here)*
+[Click here](https://www.canva.com/design/DAG3JuFmKzE/Ik5zgKS65P_vFvCoF-FDXA/edit?utm_content=DAG3JuFmKzE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
