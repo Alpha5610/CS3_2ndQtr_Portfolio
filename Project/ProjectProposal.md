@@ -52,7 +52,6 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 - Background art  
 - Character sprites  
 - Interactive buttons  
-- `Next` button  
 
 ---
 
