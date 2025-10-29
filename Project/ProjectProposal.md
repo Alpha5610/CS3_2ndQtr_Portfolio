@@ -30,22 +30,24 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 ### **3. Outline Of Webpages**
 #### ***Home Page***
 - Introduction to the player  
-- About the creators  
-- Two links:  
-  - `Start` (Actual Game page)  
-  - `Help` (About the Game page)  
+-Images of subject characters to hook the player
+- Four links:  
+  - `About the Game` (About the Game page)  
+  - `PLAY!` (Actual Game page)
+  - `Notebook` (Notebook page)
+  - `Gallery` (Gallery page) 
 - Background music toggle  
 
 ---
 
-#### ***About the Game page*** `(Help)`
+#### ***About the Game page*** `(About the Game)`
 - History of Game  
 - Game guide (FOR BEGINNERS)  
 - Secret tip to get best ending `(gdoc link)`
 
 ---
 
-#### ***Actual Game page*** `(Start)`
+#### ***Actual Game page*** `(PLAY!)`
 - Text box for dialogue  
 - Background art  
 - Character sprites  
@@ -56,13 +58,13 @@ By: Unna Lael Jaldon and Alpha Celestine Jimenez of 9 - Rubidium
 
 #### *(in `nav` bar)*
 
-##### ***Notebook*** 
+##### ***Notebook*** `(Notebook)`
 - Character sprites  
-- Short bios  
+- Short bios  (likes + dislikes)
 - Their favorite quote  
 
-##### ***Gallery*** 
-- Small trivia!!  
+##### ***Gallery*** `(Gallery)`
+- Small trivia
 - Ending art  
 - Behind the scenes photos  
 
