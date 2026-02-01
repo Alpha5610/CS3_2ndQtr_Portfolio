@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>View Sign-Ups</title>
 
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 800px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background: navy;
+    color: white;
+}
+</style>
+
+<script>
+let signups = JSON.parse(localStorage.getItem("signups")) || [];
+
+function loadClubs() {
+    let clubs = [...new Set(signups.map(s => s.club))];
+    let select = document.getElementById("clubFilter");
+
+    clubs.forEach(c => {
+        let opt = document.createElement("option");
+        opt.value = c;
+        opt.textContent = c;
+        select.appendChild(opt);
+    });
+}
+
+function displayTable() {
+    let club = document.getElementById("clubFilter").value;
+    let tbody = document.getElementById("tableBody");
+    tbody.innerHTML = "";
+
+    let filtered = club === "ALL"
+        ? signups
+        : signups.filter(s => s.club === club);
+
+    document.getElementById("total").textContent = filtered.length;
+
+    if (filtered.length === 0) {
+        tbody.innerHTML = "<tr><td colspan='7'>No Sign Ups for the club</td></tr>";
+        return;
+    }
+
+    filtered.forEach(s => {
+        tbody.innerHTML += `
+        <tr>
+            <td>${s.club}</td>
+            <td>${s.id}</td>
+            <td>${s.name}</td>
+            <td>${s.grade}</td>
+            <td>${s.email}</td>
+            <td>${s.mobile}</td>
+            <td>${s.status}</td>
+        </tr>`;
+    });
+}
+
+window.onload = function () {
+    loadClubs();
+    displayTable();
+};
+</script>
+</head>
+
+<body>
+
+<div class="container">
+<h2>Show List of Students Who Signed-Up</h2>
+<a href="Q3_2GSectionLastName.html">Back to Signup</a>
+
+<br><br>
+
+Select Your Club:
+<select id="clubFilter" onchange="displayTable()">
+<option value="ALL">All Clubs</option>
+</select>
+
+<p>Total Signup: <span id="total">0</span></p>
+
+<table>
+<thead>
+<tr>
+<th>Club</th>
+<th>ID</th>
+<th>Fullname</th>
+<th>Grade</th>
+<th>Email</th>
+<th>Mobile</th>
+<th>Intern/Extern</th>
+</tr>
+</thead>
+<tbody id="tableBody"></tbody>
+</table>
+</div>
+
+</body>
+</html>
